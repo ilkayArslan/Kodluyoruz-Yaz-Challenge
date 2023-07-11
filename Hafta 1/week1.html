@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        div {
+            width: 50%;
+            text-align: left;
+            margin: 25px;
+        }
+
+        input {
+            width: 50%;
+            padding: 10px;
+            font-weight: 600;
+        }
+
+        button {
+            padding: 10px;
+            width: 25%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Day 1</h1>
+    <!--EASY-->
+    <div>
+        <h3>Yaş Hesabı</h3>
+        <input id="age" type="number" placeholder="lütfen doğum tarihinizi giriniz">
+        <button id="hesapla">Hesapla</button>
+    </div>
+
+    <!--MEDİUM-->
+    <div>
+        <h3>Harf Bulma</h3>
+        <textarea id="yazialani" cols="100" rows="10"> </textarea>
+        <button id="harf">Harfi Bul</button>
+    </div>
+
+    <!--HARD-->
+    <div>
+        <h3>Toplam bulma</h3>
+        <input id="sumt" type="number" placeholder="lütfen bir sayı giriniz">
+        <button id="toplam">Toplamı Bul</button>
+    </div>
+
+    <script src="Easy.js"></script>
+    <script src="Medium.js"></script>
+    <script src="Hard.js"></script>
+</body>
+
+</html>
